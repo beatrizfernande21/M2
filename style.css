@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    text-align: center; /* Centraliza o conteúdo */
+    background-color: #eeecf5; /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%; /* Largura da caixa */
+    margin: auto;
+    background: white (228, 222, 222);
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-top: 30px;
+}
+
+h1, h2 {
+    color: #8e4ebb; /* Cor dos títulos */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #7635a5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a0b8a; /* Cor ao passar o mouse */
+}
+
+.paciente-card {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px; /* Espaço entre botões */
+}
+
+.edit, .delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: #841fe2; /* Cor do botão editar */
+}
+
+.delete {
+    background-color: #ce2929; /* Cor do botão excluir */
+    color: white;
+}

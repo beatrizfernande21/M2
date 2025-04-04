@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Suporte a caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em dispositivos móveis -->
+    <title>Cadastro de Pacientes</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Importa o CSS externo -->
+</head>
+<body>
+    <div class="container"> <!-- Contêiner principal -->
+        <div class="container">
+            <img src="imagem.jpeg" alt="Cadastro de Cliente" width="200"> <!--imagem-->
+        
+        <h1>Cadastro de Pacientes</h1>
+        <!-- Formulário para cadastro -->
+        <form id="pacienteForm">
+            <!-- Campos de entrada com placeholder e obrigatório -->
+            <input type="text" id="nome" placeholder="Nome do paciente" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <input type="text" id="cpf" placeholder="CPF" required>
+            <input type="text" id="diagnostico" placeholder="Diagnóstico" required>
+            <input type="text" id="medico" placeholder="Médico responsável" required>
+            <button type="submit">Cadastrar</button> <!-- Botão de envio -->
+        </form>
+        <h2>Lista de Pacientes</h2>
+        <!-- Div onde será exibida a lista de pacientes -->
+        <div id="pacienteList"></div>
+    </div>
+    <script src="script.js"></script> <!-- Importa o JavaScript externo -->
+</body>
+</html>
