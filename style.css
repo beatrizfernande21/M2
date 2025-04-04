@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif; /* Fonte padrão */
     text-align: center; /* Centraliza o conteúdo */
-    background-color: #eeecf5; /* Cor de fundo */
+    background-color: #eeecf5; 
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2 {
-    color: #8e4ebb; /* Cor dos títulos */
+    color: #8e4ebb; 
 }
 
 form {
@@ -60,7 +60,7 @@ button:hover {
 
 .buttons {
     display: flex;
-    gap: 5px; /* Espaço entre botões */
+    gap: 5px; 
 }
 
 .edit, .delete {
