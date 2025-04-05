@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 50%; /* Largura da caixa */
+    width: 50%; 
     margin: auto;
     background: white (228, 222, 222);
     padding: 20px;

@@ -1,4 +1,4 @@
-// Classe para representar um paciente
+
 class Paciente {
     constructor(nome, idade, cpf, diagnostico, medico) {
         this.nome = nome;
